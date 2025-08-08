@@ -31,7 +31,7 @@ jobs:
           zip -r quiz_to_json_mac_app.zip dist/*.app
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: quiz_to_json_mac_app
           path: quiz_to_json_mac_app.zip
